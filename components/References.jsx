@@ -1,6 +1,6 @@
 import "../styles/references.css";
 const References = () => {
-  return <div>References</div>;
+  return <section id="references">References</section>;
 };
 
 export default References;
