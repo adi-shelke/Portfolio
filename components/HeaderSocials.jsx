@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsGithub, BsInstagram } from "react-icons/bs";
+import "../styles/headerSocials.css";
 const HeaderSocials = () => {
   const myStyle = {
     fontSize: "20px",
   };
   return (
-    <div className="header__socials flex flex-col gap-[1.2rem] absolute left-0 bottom-[3rem] items-center ">
+    <div className="header__socials">
       <Link
         className="link socialLink"
         style={myStyle}
