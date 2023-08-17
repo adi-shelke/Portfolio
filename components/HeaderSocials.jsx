@@ -8,7 +8,7 @@ const HeaderSocials = () => {
   return (
     <div className="header__socials flex flex-col gap-[1.2rem] absolute left-0 bottom-[3rem] items-center ">
       <Link
-        className="link"
+        className="link socialLink"
         style={myStyle}
         href="https://linkedin.com"
         target="_blank"
@@ -16,7 +16,7 @@ const HeaderSocials = () => {
         <AiFillLinkedin />
       </Link>
       <Link
-        className="link"
+        className="link socialLink"
         style={myStyle}
         href="https://github.com"
         target="_blank"
@@ -24,7 +24,7 @@ const HeaderSocials = () => {
         <BsGithub />
       </Link>
       <Link
-        className="link"
+        className="link socialLink"
         style={myStyle}
         href="https://instagram.com"
         target="_blank"
