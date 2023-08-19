@@ -51,16 +51,22 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <Link className="link" href="">
+        <Link className="link" href="https://www.instagram.com/adi_shelke_07/">
           <BsInstagram className="social_icon" />
         </Link>
-        <Link className="link" href="https://facebook.com">
+        <Link
+          className="link"
+          href="https://www.facebook.com/adinath.shelke.12/"
+        >
           <AiOutlineFacebook className="social_icon" />
         </Link>
-        <Link className="link" href="https://facebook.com">
+        <Link
+          className="link"
+          href="https://www.linkedin.com/in/adinath-shelke-2519b4203"
+        >
           <AiOutlineLinkedin className="social_icon" />
         </Link>
-        <Link className="link" href="https://facebook.com">
+        <Link className="link" href="https://github.com/adi-shelke">
           <AiOutlineGithub className="social_icon" />
         </Link>
       </div>
