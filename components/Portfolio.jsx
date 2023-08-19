@@ -3,7 +3,7 @@ import Link from "next/link";
 const data = [
   {
     id: 1,
-    image: "/src/assets/tt_home.png",
+    image: "/src/assets/tt.png",
     title: "Talk-Time (MERN stack chat app)",
     github: "https://github.com/adi-shelke/TalkTime",
     demo: "https://talktimev1.netlify.app/chats",

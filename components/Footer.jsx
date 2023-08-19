@@ -24,32 +24,32 @@ const Footer = () => {
           </Link>
         </li>
         <li>
-          <Link className="link" href="#">
+          <Link className="link" href="#about">
             About
           </Link>
         </li>
         <li>
-          <Link className="link" href="#">
+          <Link className="link" href="#experience">
             Experience
           </Link>
         </li>
         <li>
-          <Link className="link" href="#">
+          <Link className="link" href="#services">
             Services
           </Link>
         </li>
         <li>
-          <Link className="link" href="#">
+          <Link className="link" href="#portfolio">
             Portfolio
           </Link>
         </li>
         <li>
-          <Link className="link" href="#">
+          <Link className="link" href="#references">
             Refrences
           </Link>
         </li>
         <li>
-          <Link className="link" href="#">
+          <Link className="link" href="#contact">
             Contact
           </Link>
         </li>
