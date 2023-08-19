@@ -1,0 +1,51 @@
+.container.references__container {
+  width: 40%;
+  padding-bottom: 3rem;
+}
+.client__avatar {
+  width: 6rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  border: 0.3rem solid var(--color-primary-variant);
+}
+
+.reference {
+  background: var(--color-bg-variant);
+  border-radius: 2rem;
+  text-align: center;
+  padding: 2rem;
+  user-select: none;
+  /* height: 20rem !important; */
+}
+.swiper-pagination-bullet {
+  background: var(--color-primary) !important;
+}
+
+.client__review {
+  color: var(--color-light);
+  font-weight: 300;
+  display: block;
+  width: 80%;
+  margin: 0.8rem auto 0;
+}
+
+/*------------------------------------ MEDIA QUERIES -------------------------------------*/
+/* MEIDUM DEVICES */
+@media screen and (max-width: 1024px) {
+  .container.references__container {
+    width: 60%;
+  }
+}
+
+/* SMALL DEVICES */
+@media screen and (max-width: 600px) {
+  .container.references__container {
+    width: var(--container-width-sm);
+  }
+
+  .client__review {
+    width: var(--container-width-sm);
+  }
+}

@@ -11,7 +11,7 @@ const HeaderSocials = () => {
       <Link
         className="link socialLink"
         style={myStyle}
-        href="https://linkedin.com"
+        href="https://www.linkedin.com/in/adinath-shelke-2519b4203"
         target="_blank"
       >
         <AiFillLinkedin />
@@ -19,7 +19,7 @@ const HeaderSocials = () => {
       <Link
         className="link socialLink"
         style={myStyle}
-        href="https://github.com"
+        href="https://github.com/adi-shelke"
         target="_blank"
       >
         <BsGithub />
@@ -27,7 +27,7 @@ const HeaderSocials = () => {
       <Link
         className="link socialLink"
         style={myStyle}
-        href="https://instagram.com"
+        href="https://www.instagram.com/adi_shelke_07/"
         target="_blank"
       >
         <BsInstagram />
