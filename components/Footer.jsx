@@ -10,7 +10,12 @@ const Footer = () => {
   return (
     <footer>
       <Link href="#" className="footer__logo link">
-        Adi
+        <img
+          src="/src/assets/Adi.png"
+          className="footer__img"
+          alt=""
+          style={{ height: "10rem", width: "10rem", borderRadius: "50%" }}
+        />
       </Link>
       <ul className="permalinks">
         <li>
