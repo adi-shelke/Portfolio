@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 
 const References = () => {
   const data = [
@@ -43,7 +43,8 @@ const References = () => {
       <Swiper
         className="container references__container"
         pagination={true}
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
+        autoplay={true}
         spaceBetween={40}
         slidesPerView={1}
         // pagination={{ clickable: true }}
