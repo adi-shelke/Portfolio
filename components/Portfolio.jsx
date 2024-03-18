@@ -2,6 +2,13 @@ import "../styles/portfolio.css";
 import Link from "next/link";
 const data = [
   {
+    id: 4,
+    image: "/src/assets/eventhub1.png",
+    title: "Event-Hub (Explore, Share and Advertise Events)",
+    github: "https://github.com/adi-shelke/Event-Hub",
+    demo: "https://eventhubv1.vercel.app/",
+  },
+  {
     id: 1,
     image: "/src/assets/tt.png",
     title: "Talk-Time (MERN stack chat app)",
@@ -22,6 +29,7 @@ const data = [
     github: "https://github.com/adi-shelke/inotebook-frontend",
     demo: "https://notesmaster.netlify.app/",
   },
+  
 ];
 
 const Portfolio = () => {
