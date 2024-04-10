@@ -18,6 +18,8 @@
 }
 .about__me-image {
   border-radius: 2rem;
+  width: 100%;
+  aspect-ratio: 1/1;
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
